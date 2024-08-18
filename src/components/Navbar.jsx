@@ -19,10 +19,10 @@ export default function Navbar() {
                 </a>
             </div>
             <div className="navbar-center">
-                <div className="btn btn-lg text-6xl font-bold text-teal-500">RAVINE SOLUTIONS</div>
+                <div className="btn btn-lg text-6xl font-bold text-accent">RAVINE SOLUTIONS</div>
             </div>
             <div className="navbar-end mr-5">
-                <a role="button" className="btn btn-active btn-success w-60 text-2xl font-bold hover:scale-110 rounded-lg">Donate Now</a>
+                <a role="button" className="btn btn-active btn-accent w-60 text-2xl font-bold hover:scale-110 rounded-lg">Donate Now</a>
             </div>
         </div>
     )

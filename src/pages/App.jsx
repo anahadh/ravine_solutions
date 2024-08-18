@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./Index"
+import AboutUs from "./AboutUs"
 
 export default function App() {
 
@@ -8,6 +9,7 @@ export default function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Index />} />
+                    <Route path="/aboutus" element={<AboutUs />} />
                 </Routes>
             </BrowserRouter>
         </>
