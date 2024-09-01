@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <div className="navbar sticky flex bg-base-200 shadow-lg h-24 justify-between">
             <div className="navbar-start gap-4 ml-5">
-                <a href="" className="btn btn-outline btn-secondary rounded-xl font-bold text-primary text-xl">
+                <a href="/aboutus" className="btn btn-outline btn-secondary rounded-xl font-bold text-primary text-xl">
                     About Us
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
@@ -19,7 +19,7 @@ export default function Navbar() {
                 </a>
             </div>
             <div className="navbar-center">
-                <div className="btn btn-lg text-6xl font-bold text-accent">RAVINE SOLUTIONS</div>
+                <div className="btn btn-lg text-6xl font-bold text-accent"><a href="/">RAVINE SOLUTIONS</a></div>
             </div>
             <div className="navbar-end mr-5">
                 <a role="button" className="btn btn-active btn-accent w-60 text-2xl font-bold hover:scale-110 rounded-lg">Donate Now</a>
